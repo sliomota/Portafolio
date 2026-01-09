@@ -1,4 +1,5 @@
 import { Button } from "./ui/button";
+
 export const Hero = () => {
   return (
     <>
@@ -14,12 +15,11 @@ export const Hero = () => {
         </span>
 
         <div className="flex gap-2">
-          <Button variant="outline" asChild>
+          <Button asChild>
             <a href="/docs/sliomotCV.pdf" download="Simon_Lionello_CV.pdf">
               Descarga CV
             </a>
           </Button>
-          <Button asChild variant="default"></Button>
         </div>
       </section>
     </>

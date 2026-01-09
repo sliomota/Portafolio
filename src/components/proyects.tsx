@@ -4,7 +4,7 @@ const proyects = [
     title: "Proyects Name Placeholder",
     img: "https://placehold.co/150x150",
     description:
-      "Ponyta is very weak at birth. It can barely stand up. This Pokémon becomes stronger by stumbling and falling to keep up with its parent.It’s proud of its thick horn. In Alola, its biggest rival is Vikavolt, which it’s always fighting with.Volbeat’s tail glows like a lightbulb. With other Volbeat, it uses its tail to draw geometric shapes in the night sky. This Pokémon loves the sweet aroma given off by Illumise.",
+      "Ponyta is very weak at birth. It can barely stand up. This Pokémon becomes stronger by stumbling and falling to keep up with its parent.It’s proud of its thick horn.",
     direction: "#",
     technologies: ["JavaScript", "React", "Java"],
   },
@@ -12,7 +12,7 @@ const proyects = [
     title: "Proyects Name Placeholder",
     img: "https://placehold.co/150x150",
     description:
-      "Ponyta is very weak at birth. It can barely stand up. This Pokémon becomes stronger by stumbling and falling to keep up with its parent.It’s proud of its thick horn. In Alola, its biggest rival is Vikavolt, which it’s always fighting with.Volbeat’s tail glows like a lightbulb. With other Volbeat, it uses its tail to draw geometric shapes in the night sky. This Pokémon loves the sweet aroma given off by Illumise.",
+      "Ponyta is very weak at birth. It can barely stand up. This Pokémon becomes stronger by stumbling and falling to keep up with its parent.It’s proud of its thick horn.",
     direction: "#",
     technologies: ["JavaScript", "React", "Java"],
   },

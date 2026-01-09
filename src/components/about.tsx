@@ -20,14 +20,6 @@ export const About = () => {
             enseñó a buscar y aprender de la documentación.
           </p>
           <p>
-            Durante mis prácticas, demostré la suficiente autonomía para que se
-            me asignara la resolución de bugs en el sistema de gestión de
-            horarios de la empresa. Mientras trabajaba en un entorno de equipo,
-            fui el único responsable de identificar y solucionar estos errores,
-            lo que me permitió desarrollar una gran capacidad de análisis y
-            confianza para manejar código crítico.
-          </p>
-          <p>
             También durante el curso y las prácticas de empresa tuve la
             oportunidad de adquirir habilidades de trabajo en equipo,
             organización de proyectos y liderazgo.
