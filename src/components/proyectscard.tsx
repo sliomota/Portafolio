@@ -17,7 +17,7 @@ export const ProyectCard = ({
   return (
     <>
       <a href={direction}>
-        <article className="w-full mx-auto p-5 shadow-md rounded-md flex my-5 transition delay-100 duration-300 ease-in hover:scale-105 relative">
+        <article className="w-full mx-auto p-5 shadow-lg rounded-md flex transition delay-100 duration-300 ease-in hover:scale-105 relative">
           <div className="w-1/4">
             <img src={img} alt="placeholder de imagen de proyecto" />
           </div>
@@ -30,7 +30,7 @@ export const ProyectCard = ({
                 <Badge>{current}</Badge>
               ))}
             </div>
-            <RxExternalLink className="absolute right-4 stroke-1"></RxExternalLink>
+            <RxExternalLink className="absolute right-4 stroke-1 "></RxExternalLink>
           </div>
         </article>
       </a>

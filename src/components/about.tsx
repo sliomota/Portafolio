@@ -1,11 +1,11 @@
 export const About = () => {
   return (
     <>
-      <section className="w-3/5 my-5 mx-auto">
-        <h3 className="text-4xl font-semibold">Sobre mi</h3>
+      <section className="sections">
+        <h3 className="subtitle">Sobre mi</h3>
         <article
           id="about"
-          className="flex justify-between flex-col gap-5 shadow-md p-4"
+          className="rounded-md flex justify-between flex-col gap-5 shadow-lg p-4"
         >
           <p>
             Hola, mi nombre es <b>Simón Lionello</b> y vivo en Málaga. Desde

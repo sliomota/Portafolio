@@ -11,7 +11,7 @@ import { FiGithub } from "react-icons/fi";
 export default function Header() {
   return (
     <>
-      <header className="flex flex-row justify-between items-center p-2 w-3/5 my-0 mx-auto shadow-md  rounded-md">
+      <header className="flex flex-row justify-between items-center p-2 w-3/5 mx-auto shadow-md rounded-md">
         <div className="flex justify-center items-center gap-2">
           <Avatar>
             <AvatarImage

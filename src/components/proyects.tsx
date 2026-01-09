@@ -20,8 +20,8 @@ const proyects = [
 export const Proyects = () => {
   return (
     <>
-      <section id="proyects" className="w-3/5 my-5 mx-auto">
-        <h3 className="text-4xl font-semibold">Proyectos</h3>
+      <section id="proyects" className="sections flex flex-col gap-3">
+        <h3 className="subtitle">Proyectos</h3>
         {proyects.map((current) => (
           <ProyectCard
             description={current.description}
