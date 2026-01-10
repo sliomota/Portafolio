@@ -23,8 +23,10 @@ export const ProyectCard = ({
           </div>
           <div className="w-3/4 flex flex-col gap-3">
             <h4 className="text-2xl font-bold">{title}</h4>
-            <h5 className="text-xl font-semibold">Descripción:</h5>
-            <p>{description}</p>
+            <div>
+              <h5 className="text-xl font-semibold">Descripción:</h5>
+              <p>{description}</p>
+            </div>
             <div className="flex gap-1">
               {technologies.map((current) => (
                 <Badge>{current}</Badge>

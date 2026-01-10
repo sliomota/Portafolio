@@ -2,7 +2,7 @@ import Header from "./components/header";
 import { MainLayout } from "./components/mainlayout";
 import { Hero } from "./components/hero";
 import { Proyects } from "./components/proyects";
-import { ExperienceCard } from "./components/experiencecard";
+import { ExperienceSection } from "./components/experiencesection";
 import { About } from "./components/about";
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Header></Header>
       <MainLayout>
         <Hero></Hero>
-        <ExperienceCard></ExperienceCard>
+        <ExperienceSection></ExperienceSection>
         <About></About>
         <Proyects></Proyects>
       </MainLayout>
