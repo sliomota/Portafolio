@@ -22,7 +22,7 @@ export const Proyects = () => {
     <>
       <section id="proyects" className="sections flex flex-col gap-3">
         <h3 className="subtitle">Proyectos</h3>
-        {proyects.map((current) => (
+        {/* {proyects.map((current) => (
           <ProyectCard
             description={current.description}
             title={current.title}
@@ -30,7 +30,10 @@ export const Proyects = () => {
             direction={current.direction}
             technologies={current.technologies}
           ></ProyectCard>
-        ))}
+        ))} */}
+        <div className="text-center shadow-xl rounded-xl p-15">
+          <h5 className="text-xl font-semibold">En proceso...</h5>
+        </div>
       </section>
     </>
   );
