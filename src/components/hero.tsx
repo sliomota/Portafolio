@@ -16,7 +16,7 @@ export const Hero = () => {
 
         <div className="flex gap-2 justify-center md:justify-normal">
           <Button asChild>
-            <a href="/docs/sliomotCV.pdf" download="Simon_Lionello_CV.pdf">
+            <a href="/docs/SliomotaCv.pdf" download="Simon_Lionello_CV.pdf">
               Descarga CV
             </a>
           </Button>
