@@ -15,8 +15,8 @@ export const ExperienceCard = ({
   return (
     <>
       <article className="shadow-lg p-5 rounded-md flex flex-col gap-3">
-        <div className="flex items-center gap-5">
-          <div className="w-1/10 rounded-full object-cover overflow-hidden border-2 border-solid">
+        <div className="flex flex-col lg:flex-row items-center gap-5">
+          <div className="w-1/2 md:w-1/3 lg:w-1/10 rounded-full object-cover overflow-hidden border-2 border-solid">
             <img src={logo} alt={name + " logo"} />
           </div>
           <div>

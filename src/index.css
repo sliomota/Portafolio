@@ -127,6 +127,6 @@
     @apply mb-3 text-4xl font-semibold;
   }
   .sections {
-    @apply w-3/5 my-5 mx-auto;
+    @apply w-4/5 md:w-3/5 my-5 mx-auto;
   }
 }

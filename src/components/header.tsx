@@ -11,7 +11,7 @@ import { FiGithub } from "react-icons/fi";
 export default function Header() {
   return (
     <>
-      <header className="flex flex-row justify-between items-center p-2 w-3/5 mx-auto shadow-md rounded-md">
+      <header className="flex flex-col md:flex-row md:gap-0 md:justify-between gap-1 items-center p-2 w-4/5 mx-auto shadow-md rounded-md">
         <div className="flex justify-center items-center gap-2">
           <Avatar>
             <AvatarImage
@@ -24,7 +24,7 @@ export default function Header() {
         </div>
         <div>
           <NavigationMenu>
-            <NavigationMenuList>
+            <NavigationMenuList className="flex flex-col md:flex-row">
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>
                   <a href="#about">Sobre mi</a>
