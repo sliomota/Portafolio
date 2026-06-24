@@ -3,7 +3,7 @@ import { ExperienceCard } from "./experiencecard";
 const companies = [
   {
     name: "Logic Sistemas Informatica y Telecomunicaciones",
-    logo: "https://media.licdn.com/dms/image/v2/C4D0BAQHXuG7aevjbCQ/company-logo_200_200/company-logo_200_200/0/1630575877663?e=1769644800&v=beta&t=yYaD2gMGsLcj3wbsv1zO0E2L6Wi-Qkcos8orCAZRfMY",
+    logo: "https://logicsistemas.es/wp-content/uploads/2025/01/logo-color.png",
     start: "24-03-2025",
     end: "13-06-2025",
     description:
