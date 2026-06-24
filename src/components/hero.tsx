@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 export const Hero = () => {
   return (
     <>
-      <section className="hero rounded-md shadow-md md:w-3/5 w-4/5 mt-5 mx-auto flex flex-col gap-2 relative p-5 overflow-hidden">
+      <section className="hero rounded-md shadow-md md:w-3/5 w-4/5 mt-5 mx-auto flex flex-col gap-2 relative p-5 overflow-hidden border border-border">
         <p className="text-md text-muted-foreground font-bold">
           ¡Bienvenido a mi portafolio!
         </p>

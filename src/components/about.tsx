@@ -5,7 +5,7 @@ export const About = () => {
         <h3 className="subtitle">Sobre mi</h3>
         <article
           id="about"
-          className="rounded-md flex justify-between flex-col gap-5 shadow-lg p-4"
+          className="rounded-md flex justify-between flex-col gap-5 shadow-lg p-4 border border-border"
         >
           <p>
             Hola, mi nombre es <b>Simón Lionello</b> y vivo en Málaga. Desde

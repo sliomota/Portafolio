@@ -17,7 +17,7 @@ export const ProyectCard = ({
   return (
     <>
       <a href={direction} target="_blank" rel="noopener noreferrer">
-        <article className="w-full mx-auto p-5 shadow-lg rounded-md flex transition delay-100 duration-300 ease-in hover:scale-105 relative">
+        <article className="w-full mx-auto p-5 shadow-lg rounded-md flex transition delay-100 duration-300 ease-in hover:scale-105 relative border border-border">
           <div className="w-1/4">
             <img src={img} alt="" width={150} height={150} loading="lazy" />
           </div>
