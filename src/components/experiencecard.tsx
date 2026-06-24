@@ -21,7 +21,7 @@ export const ExperienceCard = ({
           </div>
           <div>
             <h4 className="text-2xl font-bold">{name}</h4>
-            <p className="text-sm text-neutral-900/50">{start + " - " + end}</p>
+            <p className="text-sm text-muted-foreground">{start + " - " + end}</p>
           </div>
         </div>
         <div>

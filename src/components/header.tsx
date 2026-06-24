@@ -38,14 +38,14 @@ export default function Header() {
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>
                   <a href="https://www.linkedin.com/in/sliomota/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                    <FaLinkedinIn className="text-black size-5" aria-hidden="true" />
+                    <FaLinkedinIn className="text-foreground size-5" aria-hidden="true" />
                   </a>
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>
                   <a href="https://github.com/sliomota" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                    <FiGithub className="text-black size-5 stroke-3" aria-hidden="true" />
+                    <FiGithub className="text-foreground size-5 stroke-3" aria-hidden="true" />
                   </a>
                 </NavigationMenuLink>
               </NavigationMenuItem>
