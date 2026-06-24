@@ -117,6 +117,10 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    color-scheme: light dark;
+    scroll-behavior: smooth;
+  }
   body {
     @apply bg-background text-foreground;
   }
@@ -125,8 +129,24 @@
   }
   .subtitle {
     @apply mb-3 text-4xl font-semibold;
+    text-wrap: balance;
   }
   .sections {
     @apply w-4/5 md:w-3/5 my-5 mx-auto;
+  }
+  #about,
+  #proyects {
+    scroll-margin-top: 5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }

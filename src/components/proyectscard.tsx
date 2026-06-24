@@ -19,7 +19,7 @@ export const ProyectCard = ({
       <a href={direction} target="_blank" rel="noopener noreferrer">
         <article className="w-full mx-auto p-5 shadow-lg rounded-md flex transition delay-100 duration-300 ease-in hover:scale-105 relative">
           <div className="w-1/4">
-            <img src={img} alt="placeholder de imagen de proyecto" />
+            <img src={img} alt="" width={150} height={150} loading="lazy" />
           </div>
           <div className="w-3/4 flex flex-col gap-3">
             <h4 className="text-2xl font-bold">{title}</h4>
@@ -32,7 +32,7 @@ export const ProyectCard = ({
                 <Badge key={current}>{current}</Badge>
               ))}
             </div>
-            <RxExternalLink className="absolute right-4 stroke-1 "></RxExternalLink>
+            <RxExternalLink className="absolute right-4 stroke-1" aria-hidden="true" />
           </div>
         </article>
       </a>

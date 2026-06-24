@@ -32,20 +32,20 @@ export default function Header() {
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>
-                  <a href="#proyects">Projectos</a>
+                  <a href="#proyects">Proyectos</a>
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>
-                  <a href="https://www.linkedin.com/in/sliomota/">
-                    <FaLinkedinIn className="text-black size-5" />
+                  <a href="https://www.linkedin.com/in/sliomota/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <FaLinkedinIn className="text-black size-5" aria-hidden="true" />
                   </a>
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink asChild>
-                  <a href="https://github.com/sliomota">
-                    <FiGithub className="text-black size-5 stroke-3" />
+                  <a href="https://github.com/sliomota" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <FiGithub className="text-black size-5 stroke-3" aria-hidden="true" />
                   </a>
                 </NavigationMenuLink>
               </NavigationMenuItem>
