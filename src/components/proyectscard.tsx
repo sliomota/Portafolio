@@ -1,4 +1,4 @@
-import { Badge } from "./ui/badge";
+import { Badge } from "@/components/ui/badge";
 import { RxExternalLink } from "react-icons/rx";
 interface ProjectProp {
   title: string;
@@ -16,7 +16,7 @@ export const ProyectCard = ({
 }: ProjectProp) => {
   return (
     <>
-      <a href={direction}>
+      <a href={direction} target="_blank" rel="noopener noreferrer">
         <article className="w-full mx-auto p-5 shadow-lg rounded-md flex transition delay-100 duration-300 ease-in hover:scale-105 relative">
           <div className="w-1/4">
             <img src={img} alt="placeholder de imagen de proyecto" />
@@ -29,7 +29,7 @@ export const ProyectCard = ({
             </div>
             <div className="flex gap-1">
               {technologies.map((current) => (
-                <Badge>{current}</Badge>
+                <Badge key={current}>{current}</Badge>
               ))}
             </div>
             <RxExternalLink className="absolute right-4 stroke-1 "></RxExternalLink>
