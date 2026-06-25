@@ -14,7 +14,7 @@ const proyects = [
     img: "/SwissMate.png",
     description:
       "Gestor de torneos de ajedrez con sistema suizo. Organiza rondas, registra resultados, asigna cruces y lleva el ranking de jugadores en tiempo real.",
-    direction: "https://github.com/sliomota/SwissMate",
+    direction: "https://github.com/sergiopen/SwissMate/",
     technologies: ["Next.js", "TypeScript", "Tailwind", "Prisma", "PostgreSQL"],
   },
 ];
