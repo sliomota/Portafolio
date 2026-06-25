@@ -9,6 +9,14 @@ const proyects = [
     direction: "https://github.com/sliomota/hypotesys_traker",
     technologies: ["Next.js", "TypeScript", "Drizzle ORM", "PostgreSQL", "Tremor"],
   },
+  {
+    title: "SwissMate",
+    img: "/SwissMate.png",
+    description:
+      "Gestor de torneos de ajedrez con sistema suizo. Organiza rondas, registra resultados, asigna cruces y lleva el ranking de jugadores en tiempo real.",
+    direction: "https://github.com/sliomota/SwissMate",
+    technologies: ["Next.js", "TypeScript", "Tailwind", "Prisma", "PostgreSQL"],
+  },
 ];
 export const Proyects = () => {
   return (
